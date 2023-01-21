@@ -22,7 +22,7 @@ jobs:
         run: echo "modified=$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)" >> $GITHUB_OUTPUT
 
       - name: Push changes
-        if: steps.outputs.modified == 'true'
+        if: steps.git-check.outputs.modified == 'true'
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'noreply@github.com'
