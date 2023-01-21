@@ -9,8 +9,17 @@ packages = [{include = "pynecone_practice"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pynecone-io = "^0.1.13"
-
+black = "^22.12.0"
+isort = "^5.11.4"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+
+[tool.isort]
+profile = 'black'
+line_length = 120
