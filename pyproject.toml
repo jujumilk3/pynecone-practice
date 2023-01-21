@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pynecone-practice"
+version = "0.1.0"
+description = ""
+authors = ["jujumilk3 <jujumilk3@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pynecone_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pynecone-io = "^0.1.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
