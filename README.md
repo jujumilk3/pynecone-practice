@@ -1,3 +1,1 @@
 # pynecone-practice
-
-# test
