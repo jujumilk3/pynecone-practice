@@ -1,5 +1,7 @@
 import pynecone as pc
+
 from gyudozaapp.components.navbar import navbar
+
 
 def door():
     return pc.center(
