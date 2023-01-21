@@ -15,7 +15,7 @@ def navbar():
                 pc.menu_button("Menu", bg="black", color="white", border_radius="md", px=4, py=1, font_size="0.5em"),
                 pc.menu_list(
                     pc.link(pc.menu_item("Home (index.py)"), href="/", font_size="0.5em"),
-                    pc.link(pc.menu_item("Door (door.py)"), href="/doord", font_size="0.5em"),
+                    pc.link(pc.menu_item("Door (door.py)"), href="/door", font_size="0.5em"),
                     pc.menu_divider(),
                     pc.link(
                         pc.menu_item(pc.hstack(pc.text("20Dataset"), pc.icon(tag="DownloadIcon"), font_size="0.5em")),
